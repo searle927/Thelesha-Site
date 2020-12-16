@@ -1,0 +1,32 @@
+.top {
+    align-items: center;
+    display: flex;
+    border: solid black 2px;
+    padding: 20px 380px;
+}
+.icon {
+    height: 100px;
+}
+.topText {
+    text-transform: uppercase;
+    padding-left: 30px;
+}
+.homePic {
+    width: 24vw;
+    display: inline-block;
+    margin: 0 auto;
+}
+.picContainer {
+    text-align: center;
+}
+.homeContainer {
+    margin: 0px 21em;
+}
+.howWeWorkPara {
+    width: 35vw; 
+}
+.howWeWorkContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
