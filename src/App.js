@@ -1,25 +1,28 @@
 import './App.css';
 import Home from './Components/Home/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import NavBar from './Components/NavBar/NavBar';
-// import WhatWeDo from './Components/WhatWeDo/WhatWeDo';
-// import Home from './Components/Home/Home';
-// import OurImpact from './Components/OurImpact/OurImpact';
-// import VirtualOffice from './Components/VirtualOffice/VirtualOffice';
-// import VlogBlog from './Components/VlogBlog/VlogBlog';
+// import NavBar from './Components/NavBar/NavBar'; 
+import AboutUs from './Components/AboutUs/AboutUs';
+import Services from './Components/Services/Services';
+import Residential from './Components/Residential/Residential';
+import Projects from './Components/Projects/Projects';
+import Contacts from './Components/Contacts/Contacts';
+import Blog from './Components/Blog/Blog';
 
 function App() {
   return (
     <Router>
       <div className="App">
-        <Home />
-        {/* <Switch>
-          <Route path="/" exact component={HomePage} />
-          <Route exact path="/whatWeDo" component={WhatWeDo} />
-          <Route exact path="/ourImpact" component={OurImpact} />
-          <Route exact path="/virtualOffice" component={VirtualOffice} />
-          <Route exact path="/vlogBlog" component={VlogBlog} />
-        </Switch> */}
+        {/* <NavBar /> */}
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route exact path="/aboutUs" component={AboutUs} />
+          <Route exact path="/services" component={Services} />
+          <Route exact path="/residential" component={Residential} />
+          <Route exact path="/projects" component={Projects} />
+          <Route exact path="/contacts" component={Contacts} />
+          <Route exact path="/blog" component={Blog} />
+        </Switch>
       </div>
     </Router>
   );
