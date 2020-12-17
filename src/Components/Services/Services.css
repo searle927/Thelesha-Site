@@ -1,0 +1,45 @@
+.labServices {
+    margin: 0px 21em;
+}
+.serviceCards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+.serviceCard1 {
+    background-color: #F2BF5E;
+    padding: 25px 35px;
+    margin-right: 10px;
+}
+.serviceCard2 {
+    background-color: #FF6161;
+    margin-right: 10px;
+    padding: 25px 35px;
+    height: 230px;
+}
+.serviceCard3 {
+    background-color: #536EB7;
+    margin-right: 10px;
+    padding: 25px 35px;
+}
+.serviceCard4 {
+    background-color: #028AFC;
+    padding: 25px 35px;
+}
+.airQT {
+    font-size: 23px;
+}
+.serviceButton {
+    background-color: #F5F2F2;
+    color: black;
+    width: 100px;
+}
+.labPic {
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid black 4px;
+}
