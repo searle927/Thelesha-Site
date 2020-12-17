@@ -12,8 +12,14 @@ function Home() {
                     <h1 className="topText">Environmental Testing, Inc.</h1>
                 </div> 
                 <HomeBanner />
-                <NavBar />
+                <NavBar /><br /><br />
                 <div className="homeContainer">
+                    <div className="testing">
+                        <h1 className="testingTitle">Environmental Testing & Analytical Services</h1>
+                        <hr></hr>
+                        <p className="testingPara">IMEX Inc. is registered with the Environmental Protection Agency-Guyana and provides environmental testing and analysis of air, water, soil, building material and other environmental samples. Our environmental laboratory is uniquely equipped to test for 100+ parameters using advanced instrumentation and analytical techniques.</p><br />
+                        <img className="testingPic" src="https://i.imgur.com/5Zi2QPk.jpg" alt=""></img><br /><br /><br />
+                    </div>
                     <div className="industries">
                         <h1 className="industriesHeader">Industries We Serve</h1>
                         <hr></hr>

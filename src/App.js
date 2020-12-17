@@ -8,6 +8,7 @@ import Residential from './Components/Residential/Residential';
 import Projects from './Components/Projects/Projects';
 import Contacts from './Components/Contacts/Contacts';
 import Blog from './Components/Blog/Blog';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route exact path="/contacts" component={Contacts} />
           <Route exact path="/blog" component={Blog} />
         </Switch>
+        <Footer />
       </div>
     </Router>
   );

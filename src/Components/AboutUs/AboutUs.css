@@ -1,0 +1,25 @@
+.aboutContainer {
+    margin: 0px 21em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
+    /* column-gap: 30px 100px; */
+}
+.aboutGrid {
+    margin: 20px 100px;
+}
+.aboutGrid2 {
+    margin: 100px 100px;
+    background-color: #696969;
+    color: white;
+    padding: 20px 0px 0px 20px;
+    width: 330px;
+    height: 420px;
+}
+button {
+    background-color: #00BC2F;
+    color: white;
+    height: 35px;
+    width: 200px;
+    border-radius: 5px;
+}
