@@ -8,7 +8,7 @@ function Home() {
         <>
             <div className="homewrapper">
                 <div className="top">
-                    <img className="icon" src="https://i.imgur.com/t25ulCK.png"></img> 
+                    <img className="icon" src="https://i.imgur.com/t25ulCK.png" alt=""></img> 
                     <h1 className="topText">Environmental Testing, Inc.</h1>
                 </div> 
                 <HomeBanner />
@@ -20,12 +20,12 @@ function Home() {
                         <p className="industriesPara">IMEX Inc. is a proudly partners with a wide range of businesses in the industrial and development sectors from mining and construction, public works, oil and gas, food and agro-processing, and healthcare. We also offer services to residential clients through our indoor testing packages.</p><br /><br />
                     </div>
                     <div className="picContainer">
-                        <img className="homePic" src="https://i.imgur.com/pF3TgQF.jpg"></img>
-                        <img className="homePic" src="https://i.imgur.com/sbtLj14.jpg"></img>
-                        <img className="homePic" src="https://i.imgur.com/jvGirrw.jpg"></img>
-                        <img className="homePic" src="https://i.imgur.com/pF3TgQF.jpg"></img>
-                        <img className="homePic" src="https://i.imgur.com/sbtLj14.jpg"></img>
-                        <img className="homePic" src="https://i.imgur.com/jvGirrw.jpg"></img><br /><br />
+                        <img className="homePic" src="https://i.imgur.com/pF3TgQF.jpg" alt=""></img>
+                        <img className="homePic" src="https://i.imgur.com/sbtLj14.jpg" alt=""></img>
+                        <img className="homePic" src="https://i.imgur.com/jvGirrw.jpg" alt=""></img>
+                        <img className="homePic" src="https://i.imgur.com/pF3TgQF.jpg" alt=""></img>
+                        <img className="homePic" src="https://i.imgur.com/sbtLj14.jpg" alt=""></img>
+                        <img className="homePic" src="https://i.imgur.com/jvGirrw.jpg" alt=""></img><br /><br />
                     </div> 
                     <div className="howWeWork">
                         <h1 className="howWeWorkHeader">How We Work</h1>
