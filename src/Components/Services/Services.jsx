@@ -45,6 +45,15 @@ function Services() {
                                 <button className="serviceButton">click here</button>
                             </div>
                         </div>
+
+                        <div className="labProd"><br />
+                            <h1 className="labTitle">Laboratory Products</h1>
+                            <hr></hr>
+                            <div className="labProdContainer">
+                            <img className="labPic2" src="https://i.imgur.com/PXOYAJ7.jpg" alt=""></img>
+                            <p>We support your in-house laboratory needs as a leading provider of laboratory products required for efficient day-to-day operations and maximum throughput. Our product range includes, but is not limited to reagents, cleaning supplies, glassware, equipment, water treatment systems and emergency spill kits.</p>
+                            </div>
+                        </div>
                     </div>
                     </div>
                 </div>

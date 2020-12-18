@@ -34,7 +34,7 @@
 .serviceButton {
     background-color: #F5F2F2;
     color: black;
-    width: 100px;
+    width: 80px;
 }
 .labPic {
     height: 300px;
@@ -42,4 +42,16 @@
     margin-left: auto;
     margin-right: auto;
     border: solid black 4px;
+}
+.labPic2 {
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    margin-bottom: 40px;
+}
+.labProdContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
