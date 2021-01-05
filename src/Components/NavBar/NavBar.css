@@ -22,7 +22,7 @@ a {
  a:hover {
     text-decoration: underline black;
 } 
-#home.nav, #aboutUs.nav, #services.nav, #residential.nav, #projects.nav, #contacts.nav, #blog.nav {
+#home.nav, #aboutUs.nav, #services.nav, #residential.nav, #projects.nav, #contacts.nav, #blog.nav, #aq.nav, #wq.nav, #bulk.nav, #sa.nav {
     margin-top: 0px;
 }
 .nav-items {
@@ -132,7 +132,7 @@ a {
           font-size: 23px;
           padding-top: 10px
       }
-      #home.nav, #aboutUs.nav, #services.nav, #residential.nav, #projects.nav, #contacts.nav, #blog.nav {
+      #home.nav, #aboutUs.nav, #services.nav, #residential.nav, #projects.nav, #contacts.nav, #blog.nav, #aq.nav, #wq.nav, #bulk.nav, #sa.nav {
         margin-top: 0px;
     }
      #nav-zero.nav-items, #nav-one.nav-items, #nav-two.nav-items,#nav-three.nav-items, #nav-four.nav-items, #nav-five.nav-items, #nav-six.nav-items {

@@ -1,0 +1,8 @@
+.contactContainer {
+    text-align: center;
+    align-items: center;
+    height: 50vh;
+    margin: 0em 25em;
+    padding: 90px;
+    background-color: lightgrey;
+}

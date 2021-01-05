@@ -40,6 +40,29 @@ function Navigation(props) {
               Services
             </li>
           </Link>
+
+          <Link to="/aq" id="aq" className="nav">
+            <li className="nav-items" id="nav-two" onClick={handleMenuToggle}>
+              AQ
+            </li>
+          </Link>
+
+          <Link to="/wq" id="wq" className="nav">
+            <li className="nav-items" id="nav-two" onClick={handleMenuToggle}>
+              WQ
+            </li>
+          </Link>
+          <Link to="/bulk" id="bulk" className="nav">
+            <li className="nav-items" id="nav-two" onClick={handleMenuToggle}>
+              Bulk
+            </li>
+          </Link>
+          <Link to="/sa" id="sa" className="nav">
+            <li className="nav-items" id="nav-two" onClick={handleMenuToggle}>
+              SA
+            </li>
+          </Link>
+
           <Link to="/residential" id="residential" className="nav">
             <li className="nav-items" id="nav-three" onClick={handleMenuToggle}>
               Residential
@@ -52,7 +75,7 @@ function Navigation(props) {
           </Link>
           <Link to="/contacts" id="contacts" className="nav">
             <li className="nav-items" id="nav-five" onClick={handleMenuToggle}>
-              Contacts
+              Contact
             </li>
           </Link>
           <Link to="/blog" id="blog" className="nav">

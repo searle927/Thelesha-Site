@@ -1,7 +1,9 @@
 import React from 'react';
-// import './Contacts.css';
+import './Contacts.css';
 import HomeBanner from '../Home/HomeBanner';
 import NavBar from '../NavBar/NavBar';
+import ContactForm from './ContactForm';
+// import emailjs from "emailjs-com";
 
 function Contacts() {
     return (
@@ -13,6 +15,11 @@ function Contacts() {
                 </div>
                 <HomeBanner />
                 <NavBar />
+
+                <div className="contactContainer">
+                    <h2 className="contact">Contact Me</h2>
+                    <ContactForm />
+                </div>
             </div>
         </>
     )
