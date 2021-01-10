@@ -19,10 +19,6 @@ function Navigation(props) {
   return (
     <header>
       <div className="header">
-          {/* <div className="wrapper"> */}
-        {/* <Link to="/" class="">
-          <h1 className="logo">SHARIFA.COM</h1>
-        </Link> */}
         <ul className="nav">
         <Link to="/" id="home" className="nav">
             <li className="nav-items" id="nav-zero" onClick={handleMenuToggle}>

@@ -1,0 +1,19 @@
+.wqCaption {
+    color: darkred;
+    margin: 5px 0px;
+}
+.wqPics {
+    height: 160px;
+    border-radius: 100%;
+}
+.wq1, .wq2, .wq3, .wq4 {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 30px;
+}
+.wqPara {
+    margin: 0px;
+}
+.wqTitle {
+    margin: 5px 0px;
+}

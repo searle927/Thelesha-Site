@@ -1,5 +1,8 @@
+/* .homeWrapper {
+    background-color: #EAE8E8
+} */
 .labServices {
-    margin: 0px 21em;
+    margin: 0px 1em;
 }
 .serviceCards {
     display: grid;
@@ -16,8 +19,7 @@
 .serviceCard2 {
     background-color: #FF6161;
     margin-right: 10px;
-    padding: 25px 35px;
-    height: 230px;
+    padding: 25px 35px; 
 }
 .serviceCard3 {
     background-color: #536EB7;

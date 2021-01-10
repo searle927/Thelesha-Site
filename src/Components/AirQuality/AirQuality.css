@@ -1,0 +1,22 @@
+.aqList {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    list-style-type: none;
+}
+.paramContainer {
+    display: flex;
+    gap: 100px;
+    padding-bottom: 70px;
+}
+.listA {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.listB {
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.aqUL {
+    padding: 0px;
+}

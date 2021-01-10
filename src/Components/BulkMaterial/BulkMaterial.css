@@ -1,0 +1,13 @@
+.bulkPic {
+    height: 250px;
+    border-radius: 50%;
+}
+.asbestosContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:0px;
+}
+.bulkSection3 {
+    text-align: right;
+    margin: 120px 0 0 0;
+}

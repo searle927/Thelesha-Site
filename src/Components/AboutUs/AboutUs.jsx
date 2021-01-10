@@ -2,15 +2,13 @@ import React from 'react'
 import NavBar from '../NavBar/NavBar';
 import HomeBanner from '../Home/HomeBanner';
 import './AboutUs.css';
+import Top from '../Top/Top';
 
 function AboutUs() {
     return (
         <>
             <div className="aboutWrapper">
-                <div className="top">
-                    <img className="icon" src="https://i.imgur.com/t25ulCK.png" alt=""></img> 
-                    <h1 className="topText">Environmental Testing, Inc.</h1>
-                </div>
+                <Top />
                 <HomeBanner />
                 <NavBar />
                 <div className="aboutContainer">
@@ -31,18 +29,18 @@ function AboutUs() {
                     <div className="aboutGrid2">
                         <h3 className="available">We're Available!</h3>
                         <br />
-                        <p>Business Hours</p>
+                        <p className="listTitle">Business Hours</p>
                         <ul>
-                            <li>Mon-Fri, 09:00-17:00 hours</li>
-                            <li>Same-day consultations available</li>
-                            <li>24-hour sampling available</li>
+                            <li className="aboutList">Mon-Fri, 09:00-17:00 hours</li>
+                            <li className="aboutList">Same-day consultations available</li>
+                            <li className="aboutList">24-hour sampling available</li>
                             <br />
                         </ul>
-                        <p>Key Contacts</p>
+                        <p className="listTitle">Key Contacts</p>
                         <ul>
-                            <li>Main: 592-222-9589</li>
-                            <li>Mobile: 592-600-6121</li>
-                            <li>Email: info@imexlogic.com</li>
+                            <li className="aboutList">Main: 592-222-9589</li>
+                            <li className="aboutList">Mobile: 592-600-6121</li>
+                            <li className="aboutList">Email: info@imexlogic.com</li>
                         </ul><br />
                         <button> Email Service Request</button>
                     </div>

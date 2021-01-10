@@ -3,19 +3,16 @@ import './Contacts.css';
 import HomeBanner from '../Home/HomeBanner';
 import NavBar from '../NavBar/NavBar';
 import ContactForm from './ContactForm';
-// import emailjs from "emailjs-com";
+import Top from '../Top/Top';
+
 
 function Contacts() {
     return (
         <>
+            <Top />
+            <HomeBanner />
+            <NavBar />
             <div className="aboutWrapper">
-                <div className="top">
-                    <img className="icon" src="https://i.imgur.com/t25ulCK.png" alt=""></img> 
-                    <h1 className="topText">Environmental Testing, Inc.</h1>
-                </div>
-                <HomeBanner />
-                <NavBar />
-
                 <div className="contactContainer">
                     <h2 className="contact">Contact Me</h2>
                     <ContactForm />

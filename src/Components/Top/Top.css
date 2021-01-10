@@ -1,0 +1,22 @@
+.top {
+    align-items: center;
+    display: flex;
+    border: solid black 2px;
+    padding: 7px 380px;
+    justify-items: right;
+}
+.icon {
+    height: 80px;
+}
+.topB {
+    text-align: right;
+    padding-left: 45em;
+    display: flex;
+}
+.topPic {
+    height: 25px;
+}
+.topPara{
+    font-weight: bolder;
+    letter-spacing: 1px;
+}

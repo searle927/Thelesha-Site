@@ -1,10 +1,11 @@
 .homeBanner {
     position: relative;
-    height: 50vh;
+    height: 40vh;
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.imgur.com/wYv7f4J.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('');
     background-size: cover;
     background-position: center;
+    background-color: lightgray;
 }
 /* .banner .banner-info {
     position: absolute;

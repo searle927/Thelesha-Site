@@ -1,30 +1,28 @@
-import React from 'react'
-// import HomeBanner from '.../HomeBanner/HomeBanner';
-// import the NavBar
+import React from 'react';
+import HomeBanner from '../Home/HomeBanner';
+import NavBar from '../NavBar/NavBar';
+import Top from '../Top/Top';
+import './WaterQuality.css';
 
 function WaterQuality() {
     return (
         <>
             <div className="aboutWrapper">
-                <div className="top">
-                    <img className="icon" src="https://i.imgur.com/t25ulCK.png" alt=""></img> 
-                    <h1 className="topText">Environmental Testing, Inc.</h1>
-                </div>
-                {/* <HomeBanner /> */}
-                {/* <NavBar /> */}
-
-                <div className="wqContainer">
+                <Top />
+                <HomeBanner />
+                <NavBar />
+                <div className="homeContainer">
                     <div className="wqAnalysis">
-                        <h1 className="wqHeader">Water Quality Analysis</h1>
-                        <p className="wqPara">IMEX Inc. utilizes advanced instrumentation to provide comprehensive water quality analysis for industrial facilities, water processing plants, farms and homes. We work with several clients across these industries where we conduct routine sampling and analysis for compliance with the Environmental Protection Agency and other Environment, Health & Safety requirements.</p>
+                        <h1 className="mainTitle">Water Quality Analysis</h1>
+                        <p className="mainPara">IMEX Inc. utilizes advanced instrumentation to provide comprehensive water quality analysis for industrial facilities, water processing plants, farms and homes. We work with several clients across these industries where we conduct routine sampling and analysis for compliance with the Environmental Protection Agency and other Environment, Health & Safety requirements.</p>
                         
-                        <p>Sample Collection & Transport: Our field technicians can pick-up and transport client-collected samples to our lab. Alternatively, our field technicians can conduct sampling offering clients a truly end-to-end service.</p>
+                        <p className="mainPara">Sample Collection & Transport: Our field technicians can pick-up and transport client-collected samples to our lab. Alternatively, our field technicians can conduct sampling offering clients a truly end-to-end service.</p>
                         
-                        <p>Our Testing Solutions: Potable, drinking, surface water and process water. We also conduct testing to Total Petroleum Hydrocarbon (TPH) in water using USEPA approved methods.</p>
+                        <p className="mainPara">Our Testing Solutions: Potable, drinking, surface water and process water. We also conduct testing to Total Petroleum Hydrocarbon (TPH) in water using USEPA approved methods.</p>
                     </div>
 
                     <div className="wqList">
-                    <div className="wq1">
+                        <div className="wq1">
                             <div className="wq1a">
                                 <img className="wqPics" src="https://i.imgur.com/SaMeSVz.jpg" alt=""></img>
                             </div>

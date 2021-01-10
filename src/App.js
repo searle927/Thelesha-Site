@@ -1,7 +1,6 @@
 import './App.css';
 import Home from './Components/Home/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-// import NavBar from './Components/NavBar/NavBar'; 
 import AboutUs from './Components/AboutUs/AboutUs';
 import Services from './Components/Services/Services';
 import Residential from './Components/Residential/Residential';
@@ -9,16 +8,15 @@ import Projects from './Components/Projects/Projects';
 import Contacts from './Components/Contacts/Contacts';
 import Blog from './Components/Blog/Blog';
 import Footer from './Components/Footer/Footer';
-import AirQuality from './Components/Services/AirQuality/AirQuality';
-import WaterQuality from './Components/Services/WaterQuality/WaterQuality';
-import Bulk from './Components/Services/BulkMaterial/BulkMaterial';
-import SpecialApps from './Components/Services/SpecialApps/SpecialApps';
+import AirQuality from './Components/AirQuality/AirQuality';
+import WaterQuality from './Components/WaterQuality/WaterQuality';
+import Bulk from './Components/BulkMaterial/BulkMaterial';
+import SpecialApps from './Components/SpecialApps/SpecialApps';
 
 function App() {
   return (
     <Router>
       <div className="App">
-        {/* <NavBar /> */}
         <Switch>
           <Route path="/" exact component={Home} />
           <Route exact path="/aboutUs" component={AboutUs} />

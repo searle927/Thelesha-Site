@@ -1,15 +1,11 @@
-.top {
-    align-items: center;
-    display: flex;
-    border: solid black 2px;
-    padding: 20px 380px;
+.mainTitle{
+    color: #00bc2f;
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 0px;
 }
-.icon {
-    height: 100px;
-}
-.topText {
-    text-transform: uppercase;
-    padding-left: 30px;
+hr {
+    margin-top: 0px;
 }
 .homePic {
     width: 15vw;
@@ -22,9 +18,13 @@
 }
 .homeContainer {
     margin: 0px 21em;
+    padding: 1px 20px;
+    background-color: #eae8e8;
 }
-.howWeWorkPara {
-    width: 35vw; 
+.mainPara {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
 }
 .howWeWorkContainer {
     display: grid;
@@ -32,29 +32,34 @@
     grid-template-rows: repeat(2, 1fr);
     gap: 40px;
 }
-.howWeWorkPara1 {
+.homePara1 {
     grid-column: 1/2;
 }
-.howWeWorkPara2 {
+.homePara2 {
     grid-column: 2/3;
     grid-row: 1/2;
 }
-.howWeWorkPara3 {
+.homePara3 {
     grid-column: 1/2;
     grid-row: 2/3;
 }
-.howWeWorkPara4 {
+.homePara4 {
     grid-column: 2/3;
-    grid-row: 2/3
+    grid-row: 2/3;
+}
+.homePara1, .homePara2, .homePara3, .homePara4 {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
 }
 span {
     font-weight: bolder;
-    color: green;
+    color: #00bc2f;
 }
 .testingPic {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    border: solid black 4px;
+    border: solid white 4px;
 }
