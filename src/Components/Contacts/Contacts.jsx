@@ -14,8 +14,10 @@ function Contacts() {
             <NavBar />
             <div className="aboutWrapper">
                 <div className="contactContainer">
-                    <h2 className="contact">Contact Me</h2>
-                    <ContactForm />
+                    <div className="contactContainer2">
+                        <h2 className="contact">Contact Me</h2>
+                        <ContactForm />
+                    </div>
                 </div>
             </div>
         </>

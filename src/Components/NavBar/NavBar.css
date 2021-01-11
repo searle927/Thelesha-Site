@@ -1,7 +1,7 @@
 .header {
     display: flex;
     background-color: white;
-    height: 80px;
+    height: 70px;
     border-bottom: solid black 1px;
 }
 .nav{
@@ -102,7 +102,7 @@ a {
     align-items: center;
     justify-content: space-evenly;
     background-color: white;
-    height: 250px;
+    height: 550px;
 }
 #nav-two.nav-link, #nav-one.nav-link {
     font-size: 15px;

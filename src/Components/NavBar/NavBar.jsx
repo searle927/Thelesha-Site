@@ -90,33 +90,62 @@ function Navigation(props) {
       </div>
 
       <div className={`dropdown-menu ${showMenu ? "show" : ""}`}>
-        <Link to="/" id="whoWeAre" className="header-item">
+        <Link to="/" id="home" className="header-item">
           <h1 className="nav-link" id="nav-one" onClick={handleMenuToggle}>
-            Who We Are
+            Home
           </h1>
         </Link>
-        <Link to="/whatWeDo" id="whatWeDo" className="header-item">
+        <Link to="/aboutUs" id="aboutUs" className="header-item">
           <h1 className="nav-link" id="nav-one" onClick={handleMenuToggle}>
-            What We Do
+            About Us
           </h1>
         </Link>
 
-        <Link to="/ourImpact" id="ourImpact" className="header-item">
+        <Link to="/services" id="services" className="header-item">
           <h1 className="nav-link" id="nav-two" onClick={handleMenuToggle}>
-            Our Impact
+            Services
           </h1>
         </Link>
-        <Link to="/virtualOffice" id="virtualOffice" className="header-item">
+        <Link to="/aq" id="aq" className="header-item">
           <h1 className="nav-link" id="nav-two" onClick={handleMenuToggle}>
-            Virtual Office
+            AQ
           </h1>
         </Link>
-        <Link to="/vlogBlog" id="vlogBlog" className="header-item">
+        <Link to="/wq" id="wq" className="header-item">
           <h1 className="nav-link" id="nav-two" onClick={handleMenuToggle}>
-            Vlog Blog
+            Water Quality
           </h1>
         </Link>
-
+        <Link to="/bulk" id="bulk" className="header-item">
+          <h1 className="nav-link" id="nav-two" onClick={handleMenuToggle}>
+            Bulk
+          </h1>
+        </Link>
+        <Link to="/sa" id="sa" className="header-item">
+          <h1 className="nav-link" id="nav-two" onClick={handleMenuToggle}>
+            Special Apps
+          </h1>
+        </Link>
+        <Link to="/residential" id="residential" className="header-item">
+          <h1 className="nav-link" id="nav-two" onClick={handleMenuToggle}>
+            Residential
+          </h1>
+        </Link>
+        <Link to="/projects" id="projects" className="header-item">
+          <h1 className="nav-link" id="nav-two" onClick={handleMenuToggle}>
+            Projects
+          </h1>
+        </Link>
+        <Link to="/contacts" id="contacts" className="header-item">
+          <h1 className="nav-link" id="nav-two" onClick={handleMenuToggle}>
+            Contact
+          </h1>
+        </Link>
+        <Link to="/blog" id="blog" className="header-item">
+          <h1 className="nav-link" id="nav-two" onClick={handleMenuToggle}>
+            Blog
+          </h1>
+        </Link>
       </div>
     </header>
   );

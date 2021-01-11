@@ -2,15 +2,15 @@
     align-items: center;
     display: flex;
     border: solid black 2px;
-    padding: 7px 380px;
-    justify-items: right;
+    padding: 0px 70px;
+    justify-content: space-between;
 }
 .icon {
     height: 80px;
 }
 .topB {
     text-align: right;
-    padding-left: 45em;
+    /* padding-left: 65em; */
     display: flex;
 }
 .topPic {
@@ -19,4 +19,5 @@
 .topPara{
     font-weight: bolder;
     letter-spacing: 1px;
+    /* text-align: right; */
 }
