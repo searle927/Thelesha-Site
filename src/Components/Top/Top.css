@@ -2,22 +2,21 @@
     align-items: center;
     display: flex;
     border: solid black 2px;
-    padding: 0px 70px;
+    padding: 0px 30px;
     justify-content: space-between;
 }
 .icon {
-    height: 80px;
+    height: 50px;
 }
 .topB {
     text-align: right;
-    /* padding-left: 65em; */
     display: flex;
 }
 .topPic {
-    height: 25px;
+    height: 20px;
 }
 .topPara{
     font-weight: bolder;
     letter-spacing: 1px;
-    /* text-align: right; */
+    font-size: 13px;
 }

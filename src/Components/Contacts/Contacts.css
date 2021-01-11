@@ -1,3 +1,17 @@
+.contactContainer {
+    background-color: lightgray;
+    /* align-items: center; */
+}
+.contact {
+    text-align: center;
+    /* background-color: lightgray; */
+}
+.contactContainer2 {
+    background-color: white;
+    margin: 0px 90px;
+}
+
+
 /* @media screen and (min-width:768px) {
 .contactContainer {
     text-align: center;

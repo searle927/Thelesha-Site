@@ -1,3 +1,11 @@
+.listA {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.listB {
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+}
 /* .aqList {
     font-size: 16px;
     font-weight: 400;

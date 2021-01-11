@@ -19,7 +19,7 @@ function WaterQuality() {
                         <p className="mainPara">Sample Collection & Transport: Our field technicians can pick-up and transport client-collected samples to our lab. Alternatively, our field technicians can conduct sampling offering clients a truly end-to-end service.</p>
                         
                         <p className="mainPara">Our Testing Solutions: Potable, drinking, surface water and process water. We also conduct testing to Total Petroleum Hydrocarbon (TPH) in water using USEPA approved methods.</p>
-                    </div>
+                    </div><br/><br/>
 
                     <div className="wqList">
                         <div className="wq1">

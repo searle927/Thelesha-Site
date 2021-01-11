@@ -1,12 +1,38 @@
+.homeContainer {
+    margin: 0px 30px;
+}
+.mainTitle {
+    color: #00bc2f;
+    font-size: 25px;
+}
+
+.testingPic {
+    height:250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.homePic {
+    height: 140px;
+    padding-bottom: 1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.picContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+hr {
+    margin-top: 0px;
+}
 /* .mainTitle{
     color: #00bc2f;
     font-size: 34px;
     font-weight: 700;
     margin-bottom: 0px;
 }
-hr {
-    margin-top: 0px;
-}
+
 .homePic {
     width: 15vw;
     display: inline-block;
